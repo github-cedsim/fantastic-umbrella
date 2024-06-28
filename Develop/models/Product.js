@@ -39,6 +39,9 @@ Product.init(
       references: {
         model: 'category',
         key: 'id',
+      },
+      allowNull: true, // or assign a default value if necessary
+    },
   },
   {
     sequelize,
@@ -46,7 +49,8 @@ Product.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'product',
-  }
+  },
 );
+
 
 module.exports = Product;
