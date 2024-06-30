@@ -17,7 +17,6 @@ This project is a backend application for an e-commerce site. It uses Express.js
   - [Categories](#categories)
   - [Products](#products)
   - [Tags](#tags)
-- [License](#license)
 
 ## Installation
 
