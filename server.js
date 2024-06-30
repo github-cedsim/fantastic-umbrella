@@ -10,6 +10,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
+// Define the root route
+app.get('/', (req, res) => {
+  res.send('Welcome to the Fantastic Umbrella API!');
+});
+
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 });

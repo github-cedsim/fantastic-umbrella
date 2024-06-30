@@ -8,8 +8,12 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// turn on routes
 app.use(routes);
+
+// Define the root route
+app.get('/', (req, res) => {
+  res.send('Welcome to the Fantastic Umbrella API!');
+});
 
 if (process.env.NODE_ENV !== 'test') {
   sequelize.sync({ force: false }).then(() => {
