@@ -19,4 +19,4 @@ sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 });
 
-module.exports = app; // Export the app for testing
+module.exports = app;
