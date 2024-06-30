@@ -8,15 +8,16 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use(routes);
-
 // Define the root route
 app.get('/', (req, res) => {
   res.send('Welcome to the Fantastic Umbrella API!');
 });
 
+// Use the routes
+app.use(routes);
+
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 });
 
-module.exports = app;
+module.exports = app; // Export the app for testing
