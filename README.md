@@ -34,11 +34,11 @@ This project is a backend application for an e-commerce site. It uses Express.js
 
 3. Create a `.env` file in the root directory and add the following environment variables:
     ```env
-    DB_NAME=t5y6q5z89ntlmipk
-    DB_USER=enujjauk83jhi9kj
-    DB_PASSWORD=pbvy0dopfv124bg5
-    DB_PORT=3306
-    DB_HOST=h40lg7qyub2umdvb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+    DB_NAME=
+    DB_USER=
+    DB_PASSWORD=
+    DB_PORT=
+    DB_HOST=
     DB_DIALECT=mysql
     ```
 
@@ -64,7 +64,7 @@ This project is a backend application for an e-commerce site. It uses Express.js
 
 ## Walkthrough Videos
 
-- [Link to Video Walkthrough](https://)
+- [Link to Video Walkthrough](https://drive.google.com/file/d/17vg6UsHe-8H7HLEUrPQZ_d5JQlOiOC5G/view?usp=drive_link)
 
 
 ## API Documentation
