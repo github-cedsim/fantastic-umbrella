@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest"
+    "test": "jest",
+    "schema": "node config/schema.js",
+    "seed": "node seeds/seed.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
