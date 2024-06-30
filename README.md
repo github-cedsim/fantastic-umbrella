@@ -1,7 +1,3 @@
-Sure! Here's a sample README file based on the criteria and information provided for your project. This README file will include sections for project description, installation, usage, walkthrough video links, and API documentation.
-
----
-
 # Fantastic Umbrella E-Commerce Backend
 
 ## Description
@@ -71,46 +67,46 @@ This project is a backend application for an e-commerce site. It uses Express.js
 ### Categories
 
 - **Get All Categories**
-    - URL: `/api/categories`
+    - Filepath: `/api/categories`
     - Method: `GET`
     - Response: JSON array of all categories
 
 - **Get Category by ID**
-    - URL: `/api/categories/:id`
+    - Filepath: `/api/categories/:id`
     - Method: `GET`
     - Response: JSON object of the category with the given ID
 
 - **Create a New Category**
-    - URL: `/api/categories`
+    - Filepath: `/api/categories`
     - Method: `POST`
     - Request Body: `{ "category_name": "New Category" }`
     - Response: JSON object of the created category
 
 - **Update a Category by ID**
-    - URL: `/api/categories/:id`
+    - Filepath: `/api/categories/:id`
     - Method: `PUT`
     - Request Body: `{ "category_name": "Updated Category" }`
     - Response: JSON object of the updated category
 
 - **Delete a Category by ID**
-    - URL: `/api/categories/:id`
+    - Filepath: `/api/categories/:id`
     - Method: `DELETE`
     - Response: JSON message confirming deletion
 
 ### Products
 
 - **Get All Products**
-    - URL: `/api/products`
+    - Filepath: `/api/products`
     - Method: `GET`
     - Response: JSON array of all products
 
 - **Get Product by ID**
-    - URL: `/api/products/:id`
+    - Filepath: `/api/products/:id`
     - Method: `GET`
     - Response: JSON object of the product with the given ID
 
 - **Create a New Product**
-    - URL: `/api/products`
+    - Filepath: `/api/products`
     - Method: `POST`
     - Request Body:
       ```json
@@ -125,7 +121,7 @@ This project is a backend application for an e-commerce site. It uses Express.js
     - Response: JSON object of the created product
 
 - **Update a Product by ID**
-    - URL: `/api/products/:id`
+    - Filepath: `/api/products/:id`
     - Method: `PUT`
     - Request Body:
       ```json
@@ -140,36 +136,36 @@ This project is a backend application for an e-commerce site. It uses Express.js
     - Response: JSON object of the updated product
 
 - **Delete a Product by ID**
-    - URL: `/api/products/:id`
+    - Filepath: `/api/products/:id`
     - Method: `DELETE`
     - Response: JSON message confirming deletion
 
 ### Tags
 
 - **Get All Tags**
-    - URL: `/api/tags`
+    - Filepath: `/api/tags`
     - Method: `GET`
     - Response: JSON array of all tags
 
 - **Get Tag by ID**
-    - URL: `/api/tags/:id`
+    - Filepath: `/api/tags/:id`
     - Method: `GET`
     - Response: JSON object of the tag with the given ID
 
 - **Create a New Tag**
-    - URL: `/api/tags`
+    - Filepath: `/api/tags`
     - Method: `POST`
     - Request Body: `{ "tag_name": "New Tag" }`
     - Response: JSON object of the created tag
 
 - **Update a Tag by ID**
-    - URL: `/api/tags/:id`
+    - Filepath: `/api/tags/:id`
     - Method: `PUT`
     - Request Body: `{ "tag_name": "Updated Tag" }`
     - Response: JSON object of the updated tag
 
 - **Delete a Tag by ID**
-    - URL: `/api/tags/:id`
+    - Filepath: `/api/tags/:id`
     - Method: `DELETE`
     - Response: JSON message confirming deletion
 
