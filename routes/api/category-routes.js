@@ -13,6 +13,7 @@ router.get('/:id', async (req, res) => {
 
     res.status(200).json(category);
   } catch (err) {
+    console.error(err); // Log the error
     res.status(500).json(err);
   }
 });

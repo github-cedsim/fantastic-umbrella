@@ -18,10 +18,10 @@ Category.init(
   },
   {
     sequelize,
-    timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: 'category',
+    timestamps: false // Add this line to disable timestamps
   }
 );
 

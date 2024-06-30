@@ -1,6 +1,3 @@
--- DROP DATABASE
-DROP DATABASE IF EXISTS ecommerce_db;
-
--- CREATE DATABASE
-CREATE DATABASE ecommerce_db;
-
+DROP DATABASE IF EXISTS `t5y6q5z89ntlmipk`;
+CREATE DATABASE `t5y6q5z89ntlmipk`;
+USE `t5y6q5z89ntlmipk`;
